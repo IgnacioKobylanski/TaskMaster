@@ -52,4 +52,8 @@ public class GestorTareas {
             }
         }
     }
+
+    public List<Tarea> getListaTareas(){
+        return new ArrayList<>(this.listaTareas);
+    }
 }
