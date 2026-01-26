@@ -59,7 +59,7 @@ public class MenuApp {
         }while (opcion != 4);
     }
     private void solicitarNuevaTarea(){
-        System.out.println("Ingrese la tarea a agregar");
+        System.out.println("Preparando la inclusion de la tarea.");
 
         System.out.println("Ingrese el Titulo");
         String titulo = scanner.nextLine();
