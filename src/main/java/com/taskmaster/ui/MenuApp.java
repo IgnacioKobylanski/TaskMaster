@@ -79,7 +79,7 @@ public class MenuApp {
 
         Prioridad prioridadSeleccionada = prioridades[seleccion - 1];
 
-        System.out.println("Seleccione una Categoría:");
+        System.out.println("Seleccione una categoría:");
         Categoria[] categorias = Categoria.values();
 
         for (int i = 0; i < categorias.length; i++) {
