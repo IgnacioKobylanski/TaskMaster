@@ -44,13 +44,22 @@ public class GestorTareas {
     }
 
     public void listarTareas() {
+        // 1. Un espacio arriba para despegar del número que acaba de escribir el usuario
+        System.out.println("\n========================================");
+        System.out.println("           LISTA DE TAREAS");
+        System.out.println("========================================");
+
         if (listaTareas.isEmpty()) {
-            System.out.println("No hay tareas para mostrar.");
+            System.out.println("   [ No hay tareas registradas ]");
         } else {
             for (Tarea t : listaTareas) {
                 System.out.println(t);
             }
         }
+
+        // 2. Cerramos el bloque y dejamos un par de líneas en blanco
+        // Esto hace que el Menú aparezca bien abajo y no se pegue
+        System.out.println("========================================\n\n");
     }
 
     public List<Tarea> getListaTareas(){
