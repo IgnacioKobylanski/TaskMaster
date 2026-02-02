@@ -16,8 +16,8 @@ public class MenuApp {
     private static final String MENU = """
     --- GESTOR DE TAREAS ---
     1. Agregar Tarea.
-    2. Listar Tareas.
-    3. Eliminar Tareas.
+    2. Listar Tarea.
+    3. Eliminar Tarea.
     4. Salir.
     """;
 
