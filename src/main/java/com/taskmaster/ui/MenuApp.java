@@ -52,7 +52,7 @@ public class MenuApp {
                     break;
 
                 default:
-                    System.out.println("Opción no válida, intente de nuevo.");
+                    System.out.println("La opción no es válida, intente de nuevo.");
                     break;
             }
 
